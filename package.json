@@ -1,5 +1,5 @@
 {
-  "name": "GeekBot",
+  "name": "MWBot",
   "version": "1.0.0",
   "description": "企业微信机器人摸鱼神器",
   "main": "app.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/im3x/GeekBot.git"
+    "url": "git+https://github.com/xjchilli/GeekBot.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/im3x/GeekBot/issues"
+    "url": "https://github.com/xjchilli/GeekBot/issues"
   },
-  "homepage": "https://github.com/im3x/GeekBot#readme",
+  "homepage": "https://github.com/xjchilli/GeekBot#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "form-data": "^3.0.0"

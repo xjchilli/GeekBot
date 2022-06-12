@@ -9,7 +9,7 @@ class Plugin extends Bot {
   }
   async run () {
     const now = new Date().Format('M/d h:m:s');
-    await this.sendImage('assets/geekbot.png');
+    //await this.sendImage('assets/geekbot.png');
     // 发送环境配置信息
     const CONF_DATA = `
 ## GeekBot Secrets Dump
@@ -31,10 +31,10 @@ ${process.env.secrets_caiyun_key}
 \`\`\`
 
 > 导出时间：${now}
-> https://github.com/im3x/GeekBot`;
-    const f = await this.uploadFile("配置数据备份.md", Buffer.from(CONF_DATA));
-    await this.sendFile(f);
-    await this.sendMarkdown("🤖 Hello! GeekBot!\n> 项目地址：[@GeekBot](https://github.com/im3x/GeekBot)\n> 启动时间：" + now);
+> https://github.com/xjchilli/GeekBot`;
+    //const f = await this.uploadFile("配置数据备份.md", Buffer.from(CONF_DATA));
+    //await this.sendFile(f);
+    //await this.sendMarkdown("🤖 Hello! GeekBot!\n> 项目地址：[@GeekBot](https://github.com/xjchilli/GeekBot)\n> 启动时间：" + now);
 
     // test env
     // const $f = await this.uploadFile("env.txt", new Buffer(JSON.stringify(process.env)));
